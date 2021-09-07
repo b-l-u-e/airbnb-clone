@@ -164,13 +164,13 @@ module.exports = {
 
 ```
 npm install --save react-date-range
-
+```
 
 This plugin expects `react` and `date-fns` as peerDependencies, It means that you need to install them in your project folder.
 
-
+```
 npm install --save react date-fns
-
+```
 
 ## [](https://github.com/hypeserver/react-date-range#usage)Usage
 
@@ -179,11 +179,11 @@ You need to import skeleton and theme styles first.
 ```
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
-
+```
 
 ### [](https://github.com/hypeserver/react-date-range#datepicker)`DatePicker`
 
-
+```
 import { Calendar } from 'react-date-range';
 
 class MyComponent extends Component {
@@ -199,13 +199,13 @@ class MyComponent extends Component {
     )
   }
 }
-
+```
 
 **_installing loading bar progress feature_**
 
 ```
 $ npm i @badrap/bar-of-progress
-
+```
 
 ## Usage
 
@@ -215,7 +215,7 @@ Import the package and create a progress bar instance:
 import ProgressBar from "@badrap/bar-of-progress";
 
 const progress = new ProgressBar();
-
+```
 
 ## Deploy your App
 
@@ -226,14 +226,16 @@ const progress = new ProgressBar();
 
 
 **Date range picker feature**
+
 ```
 npm install --save react-date-range
-
+```
 
 This plugin expects  `react`  and  `date-fns`  as peerDependencies, It means that you need to install them in your project folder.
 
 ```
 npm install --save react date-fns
+```
 
 ## [](https://github.com/hypeserver/react-date-range#usage)Usage
 You need to import skeleton and theme styles first.
@@ -241,10 +243,11 @@ You need to import skeleton and theme styles first.
 ```
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
+```
 
 ### [](https://github.com/hypeserver/react-date-range#datepicker)`DatePicker`
 
-
+```
 import { Calendar } from 'react-date-range';
 
 class MyComponent extends Component {
