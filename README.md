@@ -34,7 +34,7 @@ For an example, consider a project with the following files:
 
 - `pages/index.js`
 - `public/me.png`
-=======
+
 
 # Tech Stack used for this challenge
 
@@ -67,7 +67,7 @@ For an example, consider a project with the following files:
 
 -   `pages/index.js`
 -   `public/me.png`
->>>>>>> de7912caa1da7b26f572d4cb2b94e550f6323d8c
+
 
 We can serve an optimized image like so:
 
@@ -78,7 +78,7 @@ import profilePic from "../public/me.png";
 =======
 import Image from 'next/image'
 import profilePic from '../public/me.png'
->>>>>>> de7912caa1da7b26f572d4cb2b94e550f6323d8c
+
 
 function Home() {
   return (
@@ -87,7 +87,7 @@ function Home() {
       <Image src={profilePic} alt="Picture of the author" />
       <p>Welcome to my homepage!</p>
     </>
-<<<<<<< HEAD
+
   );
 }
 
@@ -106,14 +106,14 @@ export default Home
 
 *Required*
 The  `<Image />`  component requires the following properties.
->>>>>>> de7912caa1da7b26f572d4cb2b94e550f6323d8c
+
 
 ### [src](https://nextjs.org/docs/api-reference/next/image#src)
 
 Required and must be one of the following:
 
 1.  A statically imported image file, as in the example code above, or
-<<<<<<< HEAD
+
 2.  A path string. This can be either an absolute external URL, or an internal path depending on the [loader](https://nextjs.org/docs/api-reference/next/image#loader).
 
 When using an external URL, you must add it to [domains](https://nextjs.org/docs/basic-features/image-optimization#domains) in `next.config.js`.
@@ -121,28 +121,27 @@ When using an external URL, you must add it to [domains](https://nextjs.org/docs
 2.  A path string. This can be either an absolute external URL, or an internal path depending on the  [loader](https://nextjs.org/docs/api-reference/next/image#loader).
 
 When using an external URL, you must add it to  [domains](https://nextjs.org/docs/basic-features/image-optimization#domains)  in  `next.config.js`.
->>>>>>> de7912caa1da7b26f572d4cb2b94e550f6323d8c
 
 ### [width](https://nextjs.org/docs/api-reference/next/image#width)
 
 The width of the image, in pixels. Must be an integer without a unit.
 
-<<<<<<< HEAD
+
 Required, except for statically imported images, or those with [`layout="fill"`](https://nextjs.org/docs/api-reference/next/image#layout).
 =======
 Required, except for statically imported images, or those with  [`layout="fill"`](https://nextjs.org/docs/api-reference/next/image#layout).
->>>>>>> de7912caa1da7b26f572d4cb2b94e550f6323d8c
+
 
 ### [height](https://nextjs.org/docs/api-reference/next/image#height)
 
 The height of the image, in pixels. Must be an integer without a unit.
 
-<<<<<<< HEAD
+
 Required, except for statically imported images, or those with [`layout="fill"`](https://nextjs.org/docs/api-reference/next/image#layout).
 
 =======
 Required, except for statically imported images, or those with  [`layout="fill"`](https://nextjs.org/docs/api-reference/next/image#layout).
->>>>>>> de7912caa1da7b26f572d4cb2b94e550f6323d8c
+
 ```
 [For information about image optimization](https://nextjs.org/docs/api-reference/next/image)
 
@@ -286,5 +285,5 @@ const progress = new ProgressBar();
 - Use Vercel "https://vercel.com/" or any other free web hosting services
 
 ## Credits
->>>>>>> de7912caa1da7b26f572d4cb2b94e550f6323d8c
+
 - Huge thanks to Sonny Sangha learnt a lot and looking forward to more live tutorials
