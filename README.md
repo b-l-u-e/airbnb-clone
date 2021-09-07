@@ -72,10 +72,10 @@ For an example, consider a project with the following files:
 We can serve an optimized image like so:
 
 ```jsx
-<<<<<<< HEAD
+
 import Image from "next/image";
 import profilePic from "../public/me.png";
-=======
+
 import Image from 'next/image'
 import profilePic from '../public/me.png'
 
@@ -139,19 +139,21 @@ The height of the image, in pixels. Must be an integer without a unit.
 
 Required, except for statically imported images, or those with [`layout="fill"`](https://nextjs.org/docs/api-reference/next/image#layout).
 
-=======
+
 Required, except for statically imported images, or those with  [`layout="fill"`](https://nextjs.org/docs/api-reference/next/image#layout).
 
-```
+
 [For information about image optimization](https://nextjs.org/docs/api-reference/next/image)
 
 **Tailwind plugin scrollbar hide feature**
 
 #using npm
+```
 npm install tailwind-scrollbar-hide
 
 # Using Yarn
 yarn add tailwind-scrollbar-hide
+```
 
 Then add the plugin to your  `tailwind.config.js`  file:
 
@@ -166,7 +168,7 @@ module.exports = {
   ]
 }
 
-```
+
 
 **Date range picker feature**
 
@@ -231,7 +233,7 @@ const progress = new ProgressBar();
 
 ## Credits
 
-=======
+
 ```
 **Date range picker feature**
 ```
