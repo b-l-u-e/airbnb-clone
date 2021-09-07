@@ -102,7 +102,7 @@ The `<Image />` component requires the following properties.
 
 export default Home
 
-```
+
 
 *Required*
 The  `<Image />`  component requires the following properties.
@@ -148,12 +148,12 @@ Required, except for statically imported images, or those with  [`layout="fill"`
 **Tailwind plugin scrollbar hide feature**
 
 #using npm
-```
+
 npm install tailwind-scrollbar-hide
 
 # Using Yarn
 yarn add tailwind-scrollbar-hide
-```
+
 
 Then add the plugin to your  `tailwind.config.js`  file:
 
@@ -174,13 +174,13 @@ module.exports = {
 
 ```
 npm install --save react-date-range
-```
+
 
 This plugin expects `react` and `date-fns` as peerDependencies, It means that you need to install them in your project folder.
 
 ```
 npm install --save react date-fns
-```
+
 
 ## [](https://github.com/hypeserver/react-date-range#usage)Usage
 
@@ -189,7 +189,7 @@ You need to import skeleton and theme styles first.
 ```
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
-```
+
 
 ### [](https://github.com/hypeserver/react-date-range#datepicker)`DatePicker`
 
