@@ -2,7 +2,7 @@
 
 Hi! Did Airbnb Challenge cloning Airbnb(frontend).The challenge was hosted by Sonny Sangha.I learnt couple of tech stacks through the completion of the challenge.
 
-<<<<<<< HEAD
+
 # Tech Stack used for this challenge
 
 **Next.js**
@@ -166,7 +166,7 @@ module.exports = {
     // ...
   ]
 }
-<<<<<<< HEAD
+
 ```
 
 **Date range picker feature**
