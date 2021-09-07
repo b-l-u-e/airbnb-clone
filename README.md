@@ -94,16 +94,6 @@ function Home() {
 export default Home;
 ```
 
-_Required_
-The `<Image />` component requires the following properties.
-=======
-  )
-}
-
-export default Home
-
-
-
 *Required*
 The  `<Image />`  component requires the following properties.
 
@@ -117,7 +107,7 @@ Required and must be one of the following:
 2.  A path string. This can be either an absolute external URL, or an internal path depending on the [loader](https://nextjs.org/docs/api-reference/next/image#loader).
 
 When using an external URL, you must add it to [domains](https://nextjs.org/docs/basic-features/image-optimization#domains) in `next.config.js`.
-=======
+
 2.  A path string. This can be either an absolute external URL, or an internal path depending on the  [loader](https://nextjs.org/docs/api-reference/next/image#loader).
 
 When using an external URL, you must add it to  [domains](https://nextjs.org/docs/basic-features/image-optimization#domains)  in  `next.config.js`.
@@ -128,7 +118,7 @@ The width of the image, in pixels. Must be an integer without a unit.
 
 
 Required, except for statically imported images, or those with [`layout="fill"`](https://nextjs.org/docs/api-reference/next/image#layout).
-=======
+
 Required, except for statically imported images, or those with  [`layout="fill"`](https://nextjs.org/docs/api-reference/next/image#layout).
 
 
@@ -178,7 +168,7 @@ npm install --save react-date-range
 
 This plugin expects `react` and `date-fns` as peerDependencies, It means that you need to install them in your project folder.
 
-```
+
 npm install --save react date-fns
 
 
@@ -193,7 +183,7 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 
 ### [](https://github.com/hypeserver/react-date-range#datepicker)`DatePicker`
 
-```
+
 import { Calendar } from 'react-date-range';
 
 class MyComponent extends Component {
@@ -209,13 +199,13 @@ class MyComponent extends Component {
     )
   }
 }
-```
+
 
 **_installing loading bar progress feature_**
 
 ```
 $ npm i @badrap/bar-of-progress
-```
+
 
 ## Usage
 
@@ -225,7 +215,7 @@ Import the package and create a progress bar instance:
 import ProgressBar from "@badrap/bar-of-progress";
 
 const progress = new ProgressBar();
-```
+
 
 ## Deploy your App
 
@@ -234,25 +224,27 @@ const progress = new ProgressBar();
 ## Credits
 
 
-```
+
 **Date range picker feature**
 ```
 npm install --save react-date-range
-```
+
 
 This plugin expects  `react`  and  `date-fns`  as peerDependencies, It means that you need to install them in your project folder.
 
 ```
 npm install --save react date-fns
-```
+
 ## [](https://github.com/hypeserver/react-date-range#usage)Usage
 You need to import skeleton and theme styles first.
+
 ```
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
-```
+
 ### [](https://github.com/hypeserver/react-date-range#datepicker)`DatePicker`
-```
+
+
 import { Calendar } from 'react-date-range';
 
 class MyComponent extends Component {
